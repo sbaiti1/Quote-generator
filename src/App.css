@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Noto+Sans+Vai&family=Poppins:wght@200;300;400&family=Roboto:wght@300;400;500&display=swap');
+*{
+  margin:0;
+  padding : 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #f1f5f9;
+}
+.container{
+ 
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./assets/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.greet{
+  font-size: 2.2rem;
+  margin-bottom:3rem;
+  text-transform: capitalize;  
+  letter-spacing: 1px;
+  color: #f1f3f7f5;
+  font-family: 'Noto Sans Vai', sans-serif;
+}
+q{
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 3rem;
+  padding: 0 20px;
+}
+p{
+  margin-top: 1rem;
+  font-size: 1.4rem ;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+button{
+  margin-top: 2rem;
+  outline: 0;
+  border: 1px solid white;
+  background: #f3f4f63a;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  
+}
+
+button:hover{
+ background: #f3f4f629;
+}
