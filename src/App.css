@@ -23,7 +23,7 @@
   margin-bottom:3rem;
   text-transform: capitalize;  
   letter-spacing: 1px;
-  color: #f1f3f7f5;
+  color: #f1f3f7;
   font-family: 'Noto Sans Vai', sans-serif;
 }
 q{
@@ -44,7 +44,7 @@ p{
 }
 
 button{
-  margin-top: 2rem;
+  margin-top: 4rem;
   outline: 0;
   border: 1px solid white;
   background: #f3f4f63a;
